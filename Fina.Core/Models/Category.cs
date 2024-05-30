@@ -1,4 +1,5 @@
-﻿namespace Fina.Core.Models;
+namespace Fina.Core.Models;
+
 public class Category
 {
     public long Id { get; set; }

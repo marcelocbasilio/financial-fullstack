@@ -1,7 +1,8 @@
-﻿using Fina.Core.Enums;
 using System.ComponentModel.DataAnnotations;
+using Fina.Core.Enums;
 
 namespace Fina.Core.Requests.Transactions;
+
 public class CreateTransactionRequest : Request
 {
     [Required(ErrorMessage = "Título inválido")]
